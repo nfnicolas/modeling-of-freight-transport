@@ -3,7 +3,7 @@
 class Fuller:public HeavyCar
 {
 	const static int volume = 2;
-	const static float mu ;  //0.25
+	constexpr static float mu = 0.25;
 	const static int rest = 300;
 	float*perf;   //array perfomance loaders
 	int to_bulldozer; // time to completion work bulldozer
