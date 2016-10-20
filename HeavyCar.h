@@ -20,10 +20,10 @@ long int take{ 0 };  //counter time conducted in the point loading
 long int give{ 0 };  //counter time conducted in the point unloading
 class HeavyCar
 {
-	const static float direct_ave  ;  //22.0
-	const static float direct_disp;  //3.0
-	const static float back_ave;   // 18.0
-	const static float back_disp;  //3.0
+	const static float direct_ave  ;  //22.0 ?
+	const static float direct_disp;  //3.0 ?
+	const static float back_ave;   // 18.0 ?
+	const static float back_disp;  //3.0 ?
 	int id = 0; // serial number truck
 	enum states{Que_Fuller=1,Full,Full_Move,Que_Emptier,Empty,Empty_Move}
 	state;  //current position truck
