@@ -50,7 +50,7 @@ void Fuller::GroundReady()
 	{
 		k = BestAvail();
 		if (k == -1)return;
-		to_full[k] = (int)(get_exp(perf[k] * 60));
+		//to_full[k] = (int)(get_exp(perf[k] * 60));  //random number generator
 		serving[k] = queue[0];
 
 		queue[0]->state=Full;
